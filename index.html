@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Foodie's Kitchen</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- favicon from icons8.com -->
+    <link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/fluency-systems-filled/48/cooking-book.png">
+  </head>
+  <body>
+    <!-- body container -->
+    <div class="jumbotron pb-1">
+      <h1 class=" text-center py-2">Foodie's kitchen</h1>
+      <div class="input-group mb-3 w-50 mx-auto" ">
+									<div class=" input-group mx-auto">
+        <button id="addIngredientBtn" class="btn btn-outline-light rounded-circle me-2" type="button" ">&plus;</button>
+										<input type=" text" id="recipeIngredient" class="form-control rounded-pill ingredient" placeholder="Type in an ingredient">
+          <button type="button" id="searchButton" class="btn btn-outline-light rounded ms-2" ">Search</button>
+										</div>
+									</div>
+								</div>
+								<!-- AI generated website description -->
+								<div class=" container mt-3 bg-white site-description">
+            <h2>Welcome to Foodie's Kitchen - Your Culinary Haven</h2>
+            <p>Indulge your senses in a culinary adventure like no other at Foodie's Kitchen! Whether you're a seasoned chef or just starting your gastronomic journey, our virtual haven is here to satisfy your cravings and spark your creativity. Step into a world where flavors blend, ingredients harmonize, and every dish is a masterpiece waiting to be created.</p>
+            <p>
+              <strong>Discover. Create. Share.</strong>
+            </p>
+            <p>At Foodie's Kitchen, we're dedicated to being your culinary companion, offering a treasure trove of recipes to suit every palate. Our user-friendly search interface lets you effortlessly explore a diverse collection of dishes, from global cuisines to local favorites. Be it breakfast, lunch, dinner, or a delectable dessert, you'll find endless inspiration right at your fingertips.</p>
+            <p>
+              <strong>Get Started Today</strong>
+            </p>
+            <p>It's time to turn your kitchen into a canvas of flavors, aromas, and creativity. Whether you're in search of a quick weekday dinner, a show-stopping weekend feast, or simply an opportunity to explore the world through food, Foodie's Kitchen is your gateway to a culinary universe that knows no bounds.</p>
+            <p>Join us today and let your culinary journey begin at Foodie's Kitchen!</p>
+            <!-- wrapping search boxes created by clicking + button -->
+            <div class=" list-group list-group-horizontal justify-content-center mt-1 ingredients-input-box-container"></div>
+            <!-- area for dish cards -->
+            <div class="list-group list-group-horizontal justify-content-center d-flex flex-wrap bg-white dish-card-list"></div>
+      </div>
+      <!--footer code from mdbootsrap,com  -->
+      <footer class="bd-footer py-3 mt-3 bg-light">
+        <!-- Copyright -->
+        <div class="text-center"> © 2023 Copyright: <a class="text-dark">Jasmeet Singh</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <script src="script.js"></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script> -->
+  </body>
+</html>
